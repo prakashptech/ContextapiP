@@ -11,8 +11,11 @@ export default function ComC() {
                 {(lname) => {
                   return (
                     <h1>
-                      My name is {fname}
-                      {lname}
+                      <p>I have passed data using Consumer</p>
+                      <h1>
+                        My name is {fname}
+                        {lname}
+                      </h1>
                     </h1>
                   );
                 }}
